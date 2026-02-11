@@ -8,10 +8,26 @@ To write a program to implement the the Logistic Regression Model to Predict the
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+
+1.Load the placement dataset using the Pandas library.
+
+2.Create a copy of the dataset and remove unnecessary columns like serial number and salary.
+
+3.Check the dataset for missing values and duplicate records.
+
+4.Convert all categorical attributes into numerical form using Label Encoding.
+
+5.Separate the dataset into independent features (X) and target variable (status).
+
+6.Split the dataset into training and testing sets using an 80:20 ratio.
+
+7.Initialize the Logistic Regression model with a suitable solver.
+
+8.Train the model using the training dataset.
+
+9.Predict the placement status using the test dataset.
+
+10.Evaluate the model performance using accuracy score and classification report.
 
 ## Program:
 ```
@@ -77,7 +93,9 @@ plt.show()
 ```
 
 ## Output:
-"C:\Users\acer\OneDrive\Pictures\Screenshots\Screenshot 2026-02-11 104941.png"
+<img width="663" height="695" alt="Screenshot 2026-02-11 104941" src="https://github.com/user-attachments/assets/ae013a85-d222-4142-b50b-334f1b418bbe" />
+
+<img width="841" height="575" alt="Screenshot 2026-02-11 105000" src="https://github.com/user-attachments/assets/37b016c1-bc71-462d-9482-6eec3acbfa72" />
 
 
 ## Result:
